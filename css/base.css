@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Roboto Light", sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
@@ -14,7 +14,9 @@ input[type="search"] {
     padding: 10px 15px;
 }
 
-button {
+button,
+.button {
     border: none;
     padding: 10px 15px;
+    border-radius: 5px;
 }
