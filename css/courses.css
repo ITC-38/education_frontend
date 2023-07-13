@@ -1,0 +1,73 @@
+.trending-courses .sitemap {
+    margin-bottom: 20px;
+}
+
+.sitemap span {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.sitemap span i {
+    font-size: 16px;
+    margin: 0 10px;
+    color: #1C3554;
+}
+
+.sitemap span,
+.trending-courses > h2 + p {
+    color: #808080;
+}
+
+.sitemap span.sitemap-active,
+.trending-courses h2 {
+    color: #1C3554;
+}
+
+.trending-courses h2 {
+    font-size: 64px;
+    margin-bottom: 25px;
+}
+
+.trending-courses p {
+    margin-bottom: 50px;
+}
+
+.courses-list h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.courses-swiper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.swiper {
+    width: 95%;
+}
+
+.course-card {
+    width: 100%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    background-color: #F72585;
+    padding: 30px;
+    border-radius: 50%;
+    position: static !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    color: white;
+}
+
+.swiper-button-next:after {
+    margin-left: 8px;
+}
+
+.swiper-button-prev:after {
+    margin-right: 8px;
+}
