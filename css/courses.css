@@ -71,3 +71,42 @@
 .swiper-button-prev:after {
     margin-right: 8px;
 }
+
+.topics > h2,
+.all-courses > h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    color: #1C3554;
+    margin-bottom: 100px;
+}
+
+.courses {
+    justify-content: space-between;
+    align-items: normal;
+}
+
+.all-courses-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 82%;
+    justify-content: space-between;
+}
+
+.all-courses-list .course-card {
+    width: 30%;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    width: 85%;
+}
+
+.stars i,
+.stars a,
+.stars span {
+    margin-left: 5px;
+}
