@@ -91,15 +91,20 @@
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    width: 82%;
     justify-content: space-between;
+}
+
+.all-courses-block {
+    width: 82%;
 }
 
 .all-courses-list .course-card {
     width: 30%;
 }
 
-.stars {
+.stars,
+.durations,
+.languages {
     display: flex;
     align-items: center;
     width: 85%;
@@ -107,6 +112,19 @@
 
 .stars i,
 .stars a,
-.stars span {
+.stars span,
+.durations span,
+.languages a {
     margin-left: 5px;
+}
+
+.all-courses-filter > div > .filter-body,
+.all-courses-filter > div > .filter-header p {
+    display: none;
+}
+
+.durations a,
+.languages a {
+    font-size: 16px;
+    font-weight: bold;
 }

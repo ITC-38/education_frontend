@@ -98,20 +98,6 @@ main section h2 {
     font-size: 20px;
 }
 
-.category-btn-active {
-    background-color: #F72585;
-    color: white !important;
-}
-
-.more-courses {
-    width: 300px;
-    text-align: center;
-    padding: 20px 90px;
-    border-radius: 10px;
-    margin: 0 auto;
-    font-weight: bold;
-}
-
 .statistics {
     display: flex;
     align-items: center;
