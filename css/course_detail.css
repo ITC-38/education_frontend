@@ -1,0 +1,8 @@
+.header p,
+.sitemap span {
+    color: white;
+}
+
+.sitemap span {
+    margin-left: 10px;
+}
