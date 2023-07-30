@@ -1,0 +1,59 @@
+.main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main .user,
+.main .tabs,
+.main .courses {
+    margin-bottom: 50px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.user .avatar {
+    width: 30%;
+}
+
+.user .avatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.user-info {
+    margin-left: 50px;
+}
+
+.user-info h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.user-info p,
+.user-info h2 {
+    margin-bottom: 10px;
+    color: #021934;
+}
+
+.tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.tabs a {
+    color: #808080;
+    font-size: 32px;
+}
+
+.tabs a.active {
+    color: #021934;
+    border-bottom: 5px solid #F72585;;
+}

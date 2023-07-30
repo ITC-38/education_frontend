@@ -22,6 +22,22 @@
     font-weight: bold;
 }
 
+header .user-account {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .user-account p {
+    margin-left: 20px;
+}
+
+header .user-account .avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
 input[type="search"] {
     padding: 10px 15px;
 }
@@ -322,11 +338,33 @@ footer {
     color: white !important;
 }
 
-.more-courses {
+.more-courses,
+.read-more-btn {
     width: 300px;
     text-align: center;
     padding: 20px 90px;
     border-radius: 10px;
     margin: 0 auto;
     font-weight: bold;
+}
+
+.sitemap span {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.sitemap span i {
+    font-size: 16px;
+    margin: 0 10px;
+    color: #1C3554;
+}
+
+.sitemap span,
+.trending-courses > h2 + p {
+    color: #808080;
+}
+
+.sitemap span.sitemap-active,
+.trending-courses h2 {
+    color: #1C3554;
 }
