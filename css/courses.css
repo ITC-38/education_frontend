@@ -11,46 +11,6 @@
     margin-bottom: 50px;
 }
 
-.courses-list h2 {
-    font-size: 32px;
-    margin-bottom: 30px;
-}
-
-.courses-swiper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.swiper {
-    width: 95%;
-}
-
-.course-card {
-    width: 100%;
-}
-
-.swiper-button-next,
-.swiper-button-prev {
-    background-color: #F72585;
-    padding: 30px;
-    border-radius: 50%;
-    position: static !important;
-}
-
-.swiper-button-next:after,
-.swiper-button-prev:after {
-    color: white;
-}
-
-.swiper-button-next:after {
-    margin-left: 8px;
-}
-
-.swiper-button-prev:after {
-    margin-right: 8px;
-}
-
 .topics > h2,
 .all-courses > h2 {
     text-align: center;

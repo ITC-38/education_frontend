@@ -291,7 +291,8 @@ footer {
     padding: 20px 0;
 }
 
-.filter-body.active {
+.filter-body.active,
+.module-body.active {
     animation: slideDown .5s ease-in-out forwards;
 }
 
@@ -365,6 +366,56 @@ footer {
 }
 
 .sitemap span.sitemap-active,
-.trending-courses h2 {
+.trending-courses h2,
+.left-side h2 {
     color: #1C3554;
+}
+
+.left-side {
+    width: 60%;
+}
+
+.right-side {
+    width: 35%;
+}
+
+.courses-swiper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.courses-list h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #1C3554;
+}
+
+.swiper {
+    width: 95%;
+}
+
+.course-card {
+    width: 100%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    background-color: #F72585;
+    padding: 30px;
+    border-radius: 50%;
+    position: static !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    color: white;
+}
+
+.swiper-button-next:after {
+    margin-left: 8px;
+}
+
+.swiper-button-prev:after {
+    margin-right: 8px;
 }
