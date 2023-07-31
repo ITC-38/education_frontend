@@ -177,3 +177,7 @@ main.main {
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
+.course-card {
+    width: 100%;
+}
