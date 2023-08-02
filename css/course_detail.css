@@ -89,7 +89,10 @@ main.main {
 .course-title,
 .features,
 .feature-container,
-.course-videos {
+.course-videos,
+.mentor,
+.feedback,
+.reviews {
     margin-bottom: 100px;
 }
 
@@ -125,7 +128,8 @@ main.main {
 }
 
 .module,
-.course-videos > .button {
+.course-videos > .button,
+.reviews .button {
     width: 100%;
 }
 
@@ -173,11 +177,285 @@ main.main {
     margin-left: 30px;
 }
 
-.course-videos > .button {
+.course-videos > .button,
+.reviews .button {
     padding-top: 25px;
     padding-bottom: 25px;
 }
 
 .course-card {
     width: 100%;
+}
+
+.mentor,
+.feedback {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mentor-photo {
+    width: 35%;
+}
+
+.mentor-photo img {
+    width: 100%;
+}
+
+.mentor-info {
+    width: 60%;
+}
+
+.mentor-info h2 {
+    margin-bottom: 10px;
+}
+
+.mentor-info p {
+    color: #808080;
+    margin-bottom: 15px;
+}
+
+.mentor-info .title + p {
+    margin-bottom: 60px;
+}
+
+.mentor-info p.title {
+    font-weight: bold;
+}
+
+.mentor-info .stars {
+    margin-bottom: 20px !important;
+}
+
+.mentor-info .stars span {
+    color: #1C3554 !important;
+    font-weight: bold;
+}
+
+.mentor-info .stars span:last-child,
+.statistic-info span:last-child {
+    color: #808080 !important;
+}
+
+.statistics {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.statistic-info {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.statistic-info span:first-child {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: #4586D6;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.statistic-info span:last-child {
+    font-weight: bold;
+}
+
+.feedback .rating .mark {
+    font-size: 48px;
+    font-weight: bold;
+    color: #1C3554;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.w-500 {
+    width: 500px;
+}
+
+.w-400 {
+    width: 450px;
+}
+
+.w-300 {
+    width: 350px;
+}
+
+.w-200 {
+    width: 250px;
+}
+
+.w-100 {
+    width: 150px;
+}
+
+.reviews-info p {
+    height: 10px;
+    background-color: #FAA307;
+    border-radius: 5px;
+}
+
+.star-rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.star-rating .stars {
+    margin-bottom: 0 !important;
+    margin-left: 15px;
+}
+
+.star-rating .stars i {
+    font-size: 18px;
+}
+
+.star-rating .stars span {
+    color: #1C3554 !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.review-card,
+.reviews,
+.detail-info .statistics {
+    width: 100%;
+}
+
+.user {
+    width: 25%;
+}
+
+.review-header,
+.user,
+.like-dislike {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.review-card {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #808080;
+    margin-bottom: 25px;
+}
+
+.review-header {
+    margin-bottom: 25px;
+}
+
+.user img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.user-info .stars i {
+    font-size: 16px;
+}
+
+.user-info p,
+.user-info .stars {
+    margin-bottom: 10px !important;
+}
+
+.user-info p:first-child {
+    color: #1C3554;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.user-info p:last-child,
+.review-card p {
+    color: #808080;
+}
+
+.like-dislike {
+    width: 10%;
+}
+
+.like-dislike div i {
+    font-size: 40px;
+    color: #1C3554;
+    margin-bottom: 10px;
+}
+
+.like-dislike div i:last-child {
+    margin-left: 30px;
+}
+
+.like-dislike div p {
+    color: #1C3554;
+    text-align: center;
+    font-size: 18px;
+}
+
+.review-card p {
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.course-info-card {
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+}
+
+.course-info-card img {
+    width: 100%;
+}
+
+.course-info-card .price {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #808080;
+    justify-content: space-between;
+}
+
+.course-info-card .price button {
+    background-color: #EF233C;
+    color: white;
+    font-size: 20px;
+}
+
+.course-info-card .price button:hover {
+    background-color: white;
+    color: #EF233C;
+    border: 2px solid #EF233C;
+    transition: 1s all ease;
+}
+
+.course-info-card .price,
+.course-info-card .detail-info,
+.course-info-card > .buy {
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+.course-info-card .price span:first-child {
+    color: #1C3554;
+    font-weight: bold;
+}
+
+.course-info-card .price span:last-child {
+    margin-left: 25px;
+}
+
+.course-info-card .detail-info {
+    padding: 25px;
+}
+
+.detail-info .statistics {
+    flex-wrap: wrap;
+}
+
+.detail-info .statistics .statistic-info {
+    margin-bottom: 15px;
+}
+
+.buy .button {
+    width: 100%;
+    padding: 25px 40px;
+    font-size: 20px;
 }
